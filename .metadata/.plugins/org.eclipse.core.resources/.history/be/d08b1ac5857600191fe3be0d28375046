@@ -1,0 +1,34 @@
+/**
+ * 
+ */
+package myfirstcalculator;
+
+/**
+ * @author evanb
+ *
+ */
+import myfirstcalculator.frame;
+public class calculatorclass {
+
+	/**
+	 * @param args
+	 * @return 
+	 */
+	
+
+public void varDeclaration() {
+	
+	int calcVal = 0;
+	String add = "Add";
+	String sub = "Subtract";
+	String div = "Divide";
+	String mult = "Multiply";
+	
+}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

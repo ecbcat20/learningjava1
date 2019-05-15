@@ -1,0 +1,45 @@
+/**
+ * 
+ */
+package myfirstcalculator;
+
+/**
+ * @author evanb
+ *
+ */
+import javax.swing.*;
+
+public class frame {
+
+	/**
+	 * @param args
+	 */
+	
+	public static JFrame frame = new JFrame("My Calculator");
+	public static JPanel panel = new JPanel();
+	public JTextField calcField = new JTextField("Insert Number Here", 20);
+	
+	
+	static void screensetup () {
+		//run once
+		
+		frame.setSize(500,500);
+		panel.setSize(500,500);
+		panel.add(calcField);
+		frame.add(panel);
+		panel.setVisible(true);
+		frame.setVisible(true);
+		
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		screensetup();
+		
+
+	}
+
+}
