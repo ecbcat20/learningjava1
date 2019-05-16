@@ -17,7 +17,9 @@ public class calculatorclass {
 	
 
 public static void varDeclaration() {
-		
+	
+	int calcVal = 0;
+	
 	String add = "Add";
 	String sub = "Subtract";
 	String div = "Divide";
@@ -27,7 +29,7 @@ public static void varDeclaration() {
 
 public class getValue extends calculatorclass {
 	
-
+	int calcVal = frame.getInt();
 	
 }
 	
@@ -36,8 +38,6 @@ public class getValue extends calculatorclass {
 
 		
 		varDeclaration();
-		String calcVal = frame.calcField.getText();
-		System.out.println(calcVal);
 		
 		
 	}
