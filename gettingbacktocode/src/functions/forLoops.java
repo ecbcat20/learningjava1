@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package functions;
+
+/**
+ * @author evanb
+ *
+ */
+public class forLoops {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
