@@ -62,6 +62,7 @@ public class frame {
 		operationsManager.getValue3();
 		operationsManager.getValue4();
 		operationsManager.getValue5();
+		operationsManager.submit();
 		
 
 	}

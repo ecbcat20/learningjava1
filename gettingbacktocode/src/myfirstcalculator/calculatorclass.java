@@ -32,7 +32,8 @@ public class calculatorclass {
 
 	public static String calcVal = frame.calcField.getText();
 
-
+	public static int operationChosen = 0;
+	//1 = add, 2 = sub, 3 = multiply, 4 = divide
 	
 	public static void mainOp() {
 

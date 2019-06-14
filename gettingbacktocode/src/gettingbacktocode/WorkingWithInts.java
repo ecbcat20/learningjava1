@@ -31,6 +31,9 @@ public class WorkingWithInts {
 		//divide
 		System.out.println(i / z / y); //use division (/) signs
 		
+		//subtract
+		System.out.println(i - z - y);
+		
 		//notice the last line. It says 0. We can fix this by declaring the ints as floats
 		float u = 2;
 		float x = 4;
